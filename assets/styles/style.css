@@ -1,0 +1,126 @@
+@import url(../fonts/fonts.css);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+.navbar {
+    background: #030f24;
+    width: 100%;
+    padding: 0;
+}
+
+.container {
+    width: 1400px;
+    margin: auto;
+}
+
+.menu {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 45px;
+    height: 57px;
+}
+
+.logo span {
+    margin-left: 10px;
+    color: #3A68B8;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.5455px;
+    line-height: 31px;
+}
+
+.menu-buttons {
+    display: flex;
+}
+
+.menu-buttons a{
+    position: relative;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.menu-buttons a:last-child {
+    margin-right: 0;
+}
+
+.menu-buttons a:hover {
+    text-decoration: blink;
+}
+
+.menu-buttons a:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #3A68B8;
+	content: "";
+	transition: width 0.3s ease-out;
+}
+
+.menu-buttons a:hover:after,
+.menu-buttons a:focus:after {
+	width: 100%;
+}
+
+.additional-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+.search input {
+    width: 100%;
+    height: 42px;
+    background: #F9F0DA;
+    padding-left: 15px;
+}
+
+.search button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    background: #3A68B8;
+    border: none;
+    cursor: pointer;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+}
+
+.search button:hover {
+    background: #4279d9;
+}
