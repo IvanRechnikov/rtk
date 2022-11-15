@@ -215,3 +215,133 @@ body {
     justify-content: center;
     margin-top: 50px;
 }
+
+.info-block-two {
+    display: flex;
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+
+.info-block-info-two {
+
+}
+
+.info-block-info-two h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+}
+
+.info-block-info-two p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    opacity: 0.7;
+}
+
+.info-block-img-two {
+
+}
+
+.info-block-img-two img {
+    width: 642px;
+    height: 551px;
+}
+
+.bottom {
+    background: #030f24;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+    padding-top: 78px;
+    padding-bottom: 148px;
+}
+
+.column-one {
+
+}
+
+.column-one p {
+    margin-top: 10px;
+    width: 261px;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    opacity: 0.6;
+}
+
+.mail, .phone, .location {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mail {
+    margin-top: 37px;
+    margin-bottom: 20px;
+}
+
+.mail h4 {
+    margin: 0;
+}
+
+.mail img, .phone img, .location img {
+    width: 20px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.column-two { 
+
+}
+
+.column-two h5, .column-three h5, .column-four h5, .column-five h5 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.column-one a, .column-two a, .column-three a, .column-four a {
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 0.6;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 20px;
+}
+
+.column-one a:first-child, .column-two a:first-child, .column-three a:first-child, .column-four a:first-child {
+    margin-top: 32px;
+}
+
+.column-one, .column-two, .column-three, .column-four {
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+}
+
+.column-five {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-five p{
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    width: 261px;
+    opacity: 0.6;
+}
+
+.column-five a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
